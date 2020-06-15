@@ -12,7 +12,7 @@
   <img alt="gobarber_signin" src="https://user-images.githubusercontent.com/58606794/84613471-9cac7a80-ae99-11ea-86ae-24b7f11ec793.png">  
 <br>
 
-#### Ainda em desenvolvimento, esse será um aplicativo para os clientes efetuar agendamentos de serviços em Barbearias, Salões de Beleza em geral. Servirá também para controle dos agendamentos de cada pestador de serviço.
+#### Ainda em desenvolvimento, esse será um aplicativo para os clientes efetuarem agendamentos de serviços em Barbearias, Salões de Beleza em geral. Servirá também para controle dos agendamentos de cada pestador de serviço.
 
 
 ## Tecnologias utilizadas
@@ -52,5 +52,12 @@
 <p align="center">
   <img alt="gobarber_app" src="https://user-images.githubusercontent.com/58606794/84613443-90c0b880-ae99-11ea-85bd-99dee3244bed.gif">
 <br>  
+  
+  
+  ## License
+  
+  [Sandro Almeida ](https://github.com/SandroAlmeidaDev)
+  
+  
 
 
