@@ -1,3 +1,9 @@
+<p align="center">  
+  <img alt=gobarber-logo src="https://user-images.githubusercontent.com/58606794/84615748-36772600-aea0-11ea-8ad8-c7695c17f238.png">
+<br>
+  
+  
+  
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/SandroAlmeidaDev/gostack-bootcamp-gobarber-app">
 
