@@ -98,15 +98,18 @@ const CreateAppointment: React.FC = () => {
     setShowDatePicker((state) => !state);
   }, []);
 
-  const handleDateChange = useCallback((event: any, date: Date | undefined) => {
-    if (Platform.OS === 'android') {
-      setShowDatePicker(false);
-    }
+  const handleDateChanged = useCallback(
+    (event: any, date: Date | undefined) => {
+      if (Platform.OS === 'android') {
+        setShowDatePicker(false);
+      }
 
-    if (date) {
-      setSelectedDate(date);
-    }
-  }, []);
+      if (date) {
+        setSelectedDate(date);
+      }
+    },
+    [],
+  );
 
   const morningAvailability = useMemo(() => {
     return availability
@@ -204,7 +207,7 @@ const CreateAppointment: React.FC = () => {
               mode="date"
               display="calendar"
               textColor="#f4ede8"
-              onChange={handleDateChange}
+              onChange={handleDateChanged}
               value={selectedDate}
             />
           )}
