@@ -21,7 +21,7 @@ import {
   ProviderContainer,
   ProviderAvatar,
   ProviderName,
-  Calender,
+  Calendar,
   Title,
   OpenDatePickerButton,
   OpenDatePickerButtonText,
@@ -190,7 +190,7 @@ const CreateAppointment: React.FC = () => {
           />
         </ProvidersListContainer>
 
-        <Calender>
+        <Calendar>
           <Title>Escolha a data</Title>
 
           <OpenDatePickerButton onPress={handleToggleDatePicker}>
@@ -208,7 +208,7 @@ const CreateAppointment: React.FC = () => {
               value={selectedDate}
             />
           )}
-        </Calender>
+        </Calendar>
 
         <Schedule>
           <Title>Escolha horário</Title>
