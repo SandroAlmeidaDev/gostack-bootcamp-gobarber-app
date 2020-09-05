@@ -1,7 +1,8 @@
 import React, { useCallback, useMemo } from 'react';
 import Icon from 'react-native-vector-icons/Feather';
 import { useNavigation, useRoute } from '@react-navigation/native';
-import ptBR, { format } from 'date-fns';
+import { format } from 'date-fns';
+import ptBR from 'date-fns/locale/pt-BR';
 
 import {
   Container,
